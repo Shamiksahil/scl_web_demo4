@@ -1,0 +1,266 @@
+
+<html>
+<head>
+    <title>Mahanama College</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: arial, sans-serif;
+            line-height: 1.6;
+            background-color: #808080;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-family: 'old english text mt', serif;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            color: #ffd700;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 8px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px 15px;
+            display: inline-block;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffd700;
+            color: #000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #ffd700;
+            color: #000;
+            max-width: 1000px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section#home {
+            background-color: #fff;
+            color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'old english text mt', serif;
+            padding: 40px;
+        }
+
+        section#home img {
+            max-width: 75%;
+            height: auto;
+            border: 5px solid #ffd700;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        section#home img:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #000;
+            font-size: 2rem;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            background: #fff;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        ul li:hover {
+            transform: scale(1.03);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        form label {
+            margin-bottom: 5px;
+            color: #000;
+        }
+
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: #fff;
+            transition: border-color 0.3s;
+        }
+
+        form input:focus, form textarea:focus {
+            border-color: #ffd700;
+        }
+
+        form button {
+            padding: 10px;
+            background-color: #000;
+            color: #ffd700;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        form button:hover {
+            background-color: #ffd700;
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 8px;
+            background-color: #000;
+            color: #ffd700;
+            position: bottom;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <img src="C:\Users\sahan\Desktop\login\Picture2.png" width="12%" height="12%" align="left" alt="Mahanama College Logo">
+        <h1>Mahanama College - Colombo 03</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="C:\Users\sahan\Desktop\login\login.html">Login to LMS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div>
+            <h1>Welcome to</h1>
+            <h1>Mahanama College</h1>
+            <p>Empowering students for a brighter future.</p>
+        </div>
+        <img src="C:\Users\sahan\Desktop\login\IMG_20240210_221735.jpg" alt="School Picture">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Mahanama College is a leading Buddhist Boys’ School in Colombo 03, Sri Lanka which was established in 1954. As a public, national school,its controlled by the central government,as opposed to a provincial council. It provides both Primary & Secondary Education.</p>
+  	</section>
+
+    <section id="history">
+        <h2>History</h2>
+        	<p>Mahanama College is a Sinhala Buddhist boys school in Colombo, Sri Lanka which was established in 1954. As a public, national school, it is controlled by the central government, as opposed to a provincial council. It provides both primary and secondary education.</font></p>
+	
+	<p><font size= "3">The institution was founded in 1954 by W. A. K. Gunawardana in Sri Wardanarama, Colombo, with just five students in the class. In 1958, the school was registered as a government-assisted junior school. The number of students gradually increased to 163 with four staff members and, on 1 January 1960, J. D. A. Jayakodi was appointed as the first principal of the school. By 1969, there were 14 staff members and 373 students
+
+	With the rapid increase in student enrollment, the school moved to a nearby location, Valukarama. Primary classes were held in a nearby building, Thurstan College. In 1974, during T. N. Silva's time as principal, the junior school at Thurstan College moved to its present location, Mahanama College. In 1975, 130 students sat for the national General Certificate of Education, and 107 students passed the exam. The government donated 7 acres (28,000 m2) of land as the school expanded. By 1976, the site contained several two-story buildings.
+
+	During the early 1970s, principal N. E. Fernando made improvements to the school's facilities, including the construction of a dental unit and additional classrooms, as well as the first two-story building. Principal K. N. P. de Silva retired on 5 February 1986 and was succeeded by D.G. Sumanasekera. Sumanasekera was the first SLEAS Class-1 principal to head Mahanama. During his four years in office, he laid the foundation for the present school.
+
+	K. K. Rathnadasa became principal in 1990 and, during his time at the college, several three-storey buildings were constructed, a computer section was established, and a children's park was created. The annual carnival 'Foot-Loose' was also organised during his tenure.
+
+	In 1999, G. Liyanage became principal. He added a three-storey building with an art gallery to the existing campus. During his tenure, the school laboratories and computer sections were improved and buildings were renovated. The Battle of the Golds also known as the "Big Match" between Mahanama College and its friendly rival D. S. Senanayake College, Colombo, was inaugurated.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our A/L Courses</h2>
+        <ul>
+            <li>Bio Science</li>
+            <li>Physical Science</li>
+            <li>Technology</li>
+            <li>Art</li>
+            <li>Commerce</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Mahanama College, Colombo 03. All rights reserved. &copy; 2024</p>
+	  <p><font size="0.5">Developed by @Sahan_Fernando </font></p>
+    </footer>
+</body>
+</html>
